@@ -1,16 +1,54 @@
-# React + Vite
+# Sonatus Frontend Take-Home Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Demo
+https://sonatus.vercel.app/
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## React Compiler
+This project is a responsive User Directory application built with React (Vite).  
+It fetches user data from a public API and allows users to search, sort, and view additional details.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The goal of this project is to demonstrate:
 
-## Expanding the ESLint configuration
+- API integration
+- State management with React Hooks
+- Conditional rendering
+- Data filtering and sorting
+- Clean component architecture
+- Responsive UI design
+- Error handling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Fetch users from JSONPlaceholder API
+- Display user name and email
+- Expandable user details (address, phone, company)
+- Search by name or email (case-insensitive)
+- Sort by name or email (ascending / descending)
+- Loading state
+- Error handling
+- Responsive grid layout
+- Optimized filtering and sorting using `useMemo`
+
+---
+
+## Tech Stack
+
+- React (Vite)
+- JavaScript (ES6+)
+- CSS (Grid + Flexbox)
+- Vercel (Deployment)
+
+---
+
+## API Used
+
+https://jsonplaceholder.typicode.com/users
+
+---
+
+## Project Structure
