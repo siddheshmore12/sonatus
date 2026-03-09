@@ -51,4 +51,3 @@ https://jsonplaceholder.typicode.com/users
 
 ---
 
-## Project Structure
